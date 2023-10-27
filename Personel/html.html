@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FILMNET</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Movie Emporium</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Movies</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="movie">
+            <img src="Oppenheimer.jpg" alt="Movie 1 Poster">
+            <h2>Oppenheimer</h2>
+            <p>Following the story of American scientist and theoretical physicist J. Robert Oppenheimer (Cillian Murphy) and his role in the development of the atomic bomb in 1941.
+
+Covered by the title of the Manhattan Project, Oppenheimer and the military built a remote city in the middle of nowhere in Los Alamos, New Mexico, where scientists could live for the next 18 months while they work to create an atomic bomb strong enough to win World War II and bring their soldiers home. They aim to fend off German forces, wanting to halt the invasion and genocide being committed by the country..</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="movie">
+            <img src="Barbie.jpg" alt="Movie 2 Poster">
+            <h2>Barbie</h2>
+            <p>Living the perfect life in the perfect world, Barbie (Margot Robbie) has it all. Until one day when things start changing and her perfect world seems to fall apart. From her shower being cold to falling off her roof, rather than floating down, and her heels falling flat to the ground — Barbie now has to choose between her perfect life and finding out about the real world.
+
+Driving out of Barbie Land and into California with Ken (Ryan Gosling), the two set out on a journey of self-discovery, experiencing life without perfection. Trouble follows as the CEO of Mattel (Will Ferrell) aims to put Barbie back in her box, silencing her journey and getting his chance in the spotlight..</p>
+            <button>Add to Cart</button>
+        </div>
+        <!-- More movies can be added here -->
+    </div>
+    <footer>
+        <p>&copy; 2023 Movie Emporium. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.container {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.movie {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
